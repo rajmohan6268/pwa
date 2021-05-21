@@ -3,7 +3,8 @@ var filesToCache = [
     '/',
     '/index.html',
     '/css/style.css',
-    '/js/main.js'
+    '/js/main.js',
+    'https://i.imgur.com/VWeaLqB.png'
 ];
 
 /* Start the service worker and cache all of the app's content */
