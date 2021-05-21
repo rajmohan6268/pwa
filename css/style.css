@@ -31,4 +31,7 @@ html,
 
 .prompt {
     display: none;
+    background-color: aqua;
+    font-weight: 800;
+    text-align: center;
 }
