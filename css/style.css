@@ -21,6 +21,8 @@ html,
 .container {
     margin: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
