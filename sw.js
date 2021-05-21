@@ -18,7 +18,7 @@ self.addEventListener('install', function(e) {
 
 /* Serve cached content when offline */
 self.addEventListener('fetch', function(e) {
-    console.log(caches.keys)
+    console.log(JSON.stringify(caches.keys))
     e.respondWith(
         caches.match(e.request).then(function(response) {
             return response || fetch(e.request);
